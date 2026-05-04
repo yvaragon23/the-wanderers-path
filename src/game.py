@@ -4,11 +4,11 @@ import os #used to access the resource editor
 import random
 import datetime #used for day/night cycle
 
-from src.simulation.weather_api import WeatherSim
+from simulation.weather_api import WeatherSim
 from credentials import api_key
-from src.player import Player
-from src.world import World, get_tile_id, get_grid_coord
-from src.enemy import Oculus, Slime
+from player import Player
+from world import World, get_tile_id, get_grid_coord
+from enemy import Oculus, Slime
 
 cam_x = 0
 cam_y = 0
